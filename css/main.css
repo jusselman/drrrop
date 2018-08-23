@@ -1,0 +1,44 @@
+body{ margin:0px; background:#999; }
+div#topbar{
+	background:-webkit-linear-gradient(#666, #000);
+	background:linear-gradient(#666, #000);
+	height:100px;
+}
+div#topbar > #logo{
+	float:right;
+	width:140px;
+	height:35px;
+	margin:8px 0px 0px 30px;
+	font-size:36px;
+	color:#999;
+}
+div#topbar > #sections_btn_holder{
+	float:right;
+	width:144px;
+	height:46px;
+	padding-top:16px;
+}
+div#topbar > #sections_btn_holder > button{ background:#a3a3a3;}
+div#topbar > #sections_panel{
+	position:absolute;
+	height:0px;
+	width:550px;
+	background:#000;
+	top:60px;
+	left:160px;
+	border-radius:0px 0px 8px 8px;
+	overflow:hidden;
+	z-index:10000;
+	transition: height 0.3s linear 0s;
+}
+div#topbar > #sections_panel > div{
+	background:#333;
+	padding:20px;
+	height:238px;
+	margin:10px;
+	color:#a3a3a3;
+}
+
+img {
+  width: 485px;
+}
